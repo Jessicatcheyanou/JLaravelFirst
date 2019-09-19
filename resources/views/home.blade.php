@@ -4,15 +4,19 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>Karisma Concepts</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
         <!-- Styles -->
         <style>
             html, body {
-                background-color: #fff;
+                background-color: black;
                 color: #636b6f;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
@@ -41,7 +45,7 @@
             }
 
             .content {
-                text-align: center;
+                text-align: left;
             }
 
             .title {
@@ -80,9 +84,17 @@
             @endif
 
             <div class="content">
-                <div class="title m-b-md">
-                    Laravel
-                </div>
+
+
+              <div class="row">
+               <div class="col-sm-5" style="background-color:lavender;">
+
+
+
+               </div>
+               <div class="col-sm-7" style="background-color:lavenderblush;">.col-sm-7</div>
+             </div>
+
 
                 <div class="links">
 
@@ -91,8 +103,6 @@
                   @endforeach
 
                 </div>
-
-
 
             </div>
         </div>

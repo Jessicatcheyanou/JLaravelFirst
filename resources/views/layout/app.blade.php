@@ -10,7 +10,7 @@
 
         <div class="container">
           <!--is used to display the contents of a given section  -->
-            @yield('content')
+            @yield('content',View::make('view.name'))
         </div>
     </body>
 </html>
