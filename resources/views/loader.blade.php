@@ -1,5 +1,6 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<!doctype html>
+<html lang="en">
+
 <head>
     <meta charset="utf-8">
     <title>Karisma Concepts | Votre Concepteur</title>
@@ -22,7 +23,10 @@
     <!-- venobox popup -->
     <link rel="stylesheet" href="plugins/venobox/venobox.css">
     <!-- Main Stylesheet -->
-    <link href="css/style.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
 
     <!--Favicon-->
     <link rel="shortcut icon" href="images/iconfinder_globe.png" type="image/x-icon">
@@ -31,12 +35,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+
 </head>
 
 <body>
 
+  <!--logo animation-->
     <div class="loader-wrapper">
-        <div class="wrapper">
+        <div class="wrapperlogo">
             <svg version="1.1" id="Calque_1" xmlns="http://www.w3.org/2000/svg"
                 xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 393.7 373.5"
                 style="enable-background:new 0 0 393.7 373.5;" xml:space="preserve">
@@ -66,6 +73,8 @@
                         stroke-width: 1;
                         stroke-miterlimit: 10;
                     }
+
+
                 </style>
                 <g>
                     <path class="st3" d="M199.5,309C124,309,62.6,247.6,62.6,172.1c0-75.5,61.4-136.9,136.9-136.9c75.5,0,136.9,61.4,136.9,136.9
@@ -93,164 +102,93 @@
             </svg>
         </div>
     </div>
-    <div id="desktop_content" class="container" style="display: none;">
+    <!-- end logo animation-->
 
-        <div class="logo_fo preloader">
-            <img src="images/logo.png" class="col col-md-12 d-flex justify-content-center justify-content-md-start"
-                alt="">
-        </div>
+    <!--welcome page-->
 
-        <div class="row trait_header">
-            <h4 class="constr">July 19,2019</h4><br>
-            <hr class="col-3 col-sm-6 col-md-3 col-lg">
+    <div id="desktop_content" class="container-fluid" style="display: none;">
 
-        </div>
-        <div class="row">
-            <span class="texte_intro">GET SOME FRESH </span>
-        </div>
+    <div class="rectangle1"></div>
+    <div class="shape">
+      <svg xmlns="http://www.w3.org/2000/svg" width="302.685" height="628.851" viewBox="0 0 302.685 628.851">
+        <defs>
+          <style>
+            .cls-1,
+            .cls-2 {
+              fill: #f6a318;
+              stroke: #f6a318;
+            }
 
-        <div class="services">
-            <ul class="list-serv">
-                <li>Conception Graphique</li>
-                <li>Création de site web</li>
-                <li>Marketing Digital</li>
-                <li>Stratégies & Conseils</li>
-            </ul>
-        </div>
+            .cls-1 {
+              opacity: 0.7;
+            }
 
+            .cls-3 {
+              stroke: none;
+            }
 
-
-        <div class="descrip">
-            <p> <span class="">une agence professionnelle de <br> conception Web et graphiques</span> <br><br>
-                spécialisée dans les services de marketing
-                numérique, de développement vidéo et de développement de sites Web, commerce électronique, référencement
-                et de stratégie.</p>
-        </div>
-
-        <div class="contacts">
-
-
-            <div class="button-container" id="myButton">
-                <div class="button-icon-container">
-                    <ion-icon name="phone-portrait"></ion-icon>
-                </div>
-                <div class="button-text-container">
-                    <span>+237 65 015 51 00 / 695 48 69 09.</span>
-                </div>
-            </div>
-            <div class="button-container1" id="myButton">
-                <div class="button-icon-container">
-                    <ion-icon name="mail"></ion-icon>
-                </div>
-                <div class="button-text-container">
-                    <span>biz@karismaconcepts.com</span>
-                </div>
-            </div>
-            <div class="button-container2" id="myButton">
-                <div class="button-icon-container">
-                    <ion-icon name="logo-instagram"></ion-icon>
-                </div>
-                <div class="button-text-container">
-                    <span>@karismaconcepts.</span>
-                </div>
-            </div>
-            <div class="button-container3" id="myButton">
-                <div class="button-icon-container">
-                    <ion-icon name="logo-facebook"></ion-icon>
-                </div>
-                <div class="button-text-container">
-                    <span>@karismaconcepts.</span>
-                </div>
-            </div>
-            <div class="button-container4" id="myButton">
-                <div class="button-icon-container">
-                    <ion-icon name="logo-linkedin"></ion-icon>
-                </div>
-                <div class="button-text-container">
-                    <span>@karismaconcepts.</span>
-                </div>
-            </div>
-            <div class="button-container5" id="myButton">
-                <div class="button-icon-container">
-                    <ion-icon name="logo-twitter"></ion-icon>
-                </div>
-                <div class="button-text-container">
-                    <span>@karismaconcepts.</span>
-                </div>
-            </div>
-
-
-
-
-
-
-
-        </div>
-
-        <div class="sm-contacts">
-                <div>
-                        <div class="button-phone">
-                                <ion-icon name="phone-portrait"></ion-icon>
-
-                        </div>
-                        <div class="button-text-phone">
-                            <span>+237 65 015 51 00 / 695 48 69 09.</span>
-                        </div>
-
-                </div>
-
-                <div>
-                    <div class="button-email">
-                            <ion-icon name="mail"></ion-icon>
-                    </div>
-                    <div class="button-text-email">
-                            <span>biz@karismaconcepts.com</span>
-                    </div>
-                </div>
-
-                <div>
-                        <div class="button-instagram">
-                                <ion-icon name="logo-instagram"></ion-icon>
-                        </div>
-                        <div class="button-text-instagram">
-                                <span>@karismaconcepts.</span>
-                        </div>
-                </div>
-
-                <div>
-                        <div class="button-facebook">
-                                <ion-icon name="logo-facebook"></ion-icon>
-                        </div>
-                        <div class="button-text-facebook">
-                                <span>@karismaconcepts.</span>
-                        </div>
-                </div>
-
-                <div>
-                        <div class="button-linkedin">
-                                <ion-icon name="logo-linkedin"></ion-icon>
-                        </div>
-                        <div class="button-text-linkedin">
-                                <span>@karismaconcepts.</span>
-                        </div>
-                </div>
-
-                <div>
-                        <div class="button-twitter">
-                                <ion-icon name="logo-twitter"></ion-icon>
-                        </div>
-                        <div class="button-text-twitter">
-                                <span>@karismaconcepts.</span>
-                        </div>
-                </div>
-        </div>
-
-        <div class="vl"></div>
-
-
-
-
+            .cls-4 {
+              fill: none;
+            }
+          </style>
+        </defs>
+        <g id="shape" transform="translate(-730)">
+          <g id="Rectangle_17" data-name="Rectangle 17" class="cls-1" transform="translate(762.286)">
+            <path class="cls-3" d="M0,0H270.4a0,0,0,0,1,0,0V620.851a8,8,0,0,1-8,8H8a8,8,0,0,1-8-8V0A0,0,0,0,1,0,0Z" />
+            <path class="cls-4"
+              d="M1,.5H269.4a.5.5,0,0,1,.5.5V620.851a7.5,7.5,0,0,1-7.5,7.5H8a7.5,7.5,0,0,1-7.5-7.5V1A.5.5,0,0,1,1,.5Z" />
+          </g>
+          <g id="Rectangle_16" data-name="Rectangle 16" class="cls-1" transform="translate(746.143)">
+            <path class="cls-3" d="M0,0H270.4a0,0,0,0,1,0,0V605.949a8,8,0,0,1-8,8H8a8,8,0,0,1-8-8V0A0,0,0,0,1,0,0Z" />
+            <path class="cls-4"
+              d="M1,.5H269.4a.5.5,0,0,1,.5.5V605.949a7.5,7.5,0,0,1-7.5,7.5H8a7.5,7.5,0,0,1-7.5-7.5V1A.5.5,0,0,1,1,.5Z" />
+          </g>
+          <g id="Rectangle_14" data-name="Rectangle 14" class="cls-2" transform="translate(730)">
+            <path class="cls-3" d="M0,0H270.4a0,0,0,0,1,0,0V591.048a8,8,0,0,1-8,8H8a8,8,0,0,1-8-8V0A0,0,0,0,1,0,0Z" />
+            <path class="cls-4"
+              d="M1,.5H269.4a.5.5,0,0,1,.5.5V591.048a7.5,7.5,0,0,1-7.5,7.5H8a7.5,7.5,0,0,1-7.5-7.5V1A.5.5,0,0,1,1,.5Z" />
+          </g>
+        </g>
+      </svg>
     </div>
+    <div class="container ">
+      <div class="row wrapper ">
+
+        <div class="col-md-12 com-sm-12 col-lg-6 col-12 ">
+          <div class="row">
+            <div id="datetoday" class="col-12 col-sm-12 col-md-12 col-lg-3">Juillet 23, 2019</div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-9">
+              <hr class="trait">
+            </div>
+          </div>
+          <span class="titre">UN PEU D'AIR FRAIS</span>
+          <p class="accueil-texte">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, qui. Tempore neque ipsum magnam reiciendis eum
+            ducimus cum architecto iste ullam, nam sit, hic voluptatem modi dolorem nemo sint soluta.</p>
+        </div>
+        <div class="col-md-12 com-sm-12 col-lg-6 col-12">
+          <img src="img/video.png" class="img-fluid" alt="">
+        </div>
+
+      </div>
+    </div>
+    <div class="container-fluid brr">
+      <button class="my-btn">LES PROJETS</button>
+    </div>
+    <div class="container">
+        <ul id="navigation">
+            <li id="active">accueil</li>
+            <li><a href="about">about</a></li>
+            <li><a href="services">services</a></li>
+            <li><a href="projects">projects</a></li>
+            <li><a href="contact">contact</a></li>
+        </ul>
+    </div>
+
+  </div>
+
+  <!--end of Welcome page -->
+
+
 
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -260,11 +198,16 @@
     </script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
     </script>
+
+    <script src="js/jquery-3.4.1.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
     <script>
         $(document).ready(function () {
             setTimeout(function () {
                 $('.loader-wrapper').css('display', 'none');
-                $('.container').css('display', 'block');
+               $('.container-fluid').css('display', 'block');
             }, 5000);
 
         });

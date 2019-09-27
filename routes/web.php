@@ -12,32 +12,20 @@
 */
 use Illuminate\Http\Request;
 
-Route::get('/', function () {
-
-    $links = \App\Link::all();
-
-    return view('loader',['links' => $links]);
-
-  });
 
 
-Route::get('/submit', function () {
-    return view('submit');
-});
+Route::get('/', 'PagesController@index');
 
-Route::post('/submit', function (Request $request) {
-    $data = $request->validate([
-        'title' => 'required|max:255',
-        'url' => 'required|url|max:255',
-        'description' => 'required|max:255',
-    ]);
+Route::get('/loader', 'PagesController@loader');
 
-    $link = tap(new App\Link($data))->save();
+Route::get('/about', 'PagesController@about');
 
-    return redirect('/');
+Route::get('/services', 'PagesController@services');
 
-  //  $link = new \App\Link($data);
-  //  $link->save();
+Route::get('/projects', 'PagesController@projects');
 
-  //  return $link;
-});
+/*Route::get('/contact', 'PagesController@contact');*/
+
+Route::get('/contact','ContactController@create') -> name('contact.create');
+
+Route::post('/contact','ContactController@store') -> name('contact.store');
