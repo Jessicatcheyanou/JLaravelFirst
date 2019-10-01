@@ -30,5 +30,9 @@ class PagesController extends Controller
     public function contact(){
       return view('contact.create');
     }
+    public function team(){
+      return view('team');
+    }
+
 
 }

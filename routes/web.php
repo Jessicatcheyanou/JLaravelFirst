@@ -24,7 +24,7 @@ Route::get('/services', 'PagesController@services');
 
 Route::get('/projects', 'PagesController@projects');
 
-/*Route::get('/contact', 'PagesController@contact');*/
+Route::get('/team', 'PagesController@team');
 
 Route::get('/contact','ContactController@create') -> name('contact.create');
 

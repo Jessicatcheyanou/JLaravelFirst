@@ -26,6 +26,7 @@
 
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
 
 
     <!--Favicon-->
@@ -181,6 +182,8 @@
             <li><a href="services">services</a></li>
             <li><a href="projects">projects</a></li>
             <li><a href="contact">contact</a></li>
+            <li><a href="team">Our Team</a></li>
+
         </ul>
     </div>
 

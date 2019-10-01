@@ -11,6 +11,7 @@
     <title>Contact</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style1.css">
 
 </head>
 <body>
